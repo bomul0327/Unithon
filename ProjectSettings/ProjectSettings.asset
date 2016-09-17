@@ -529,7 +529,7 @@ PlayerSettings:
   XboxOne::VR::enabledDevices: []
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: b9e94cd1-6969-4c8a-b024-18aeb08827f4
+  projectName: Unithon
+  organizationId: bomul0327
   cloudEnabled: 0
