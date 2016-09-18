@@ -5817,7 +5817,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011282506668}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -1768714887, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
   m_Name: 
@@ -5874,11 +5874,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0261ba11f41a8f4d9e114fb69b0575b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalLerpRate: 16
-  fasterLerpRate: 27
+  normalLerpRate: 13
+  fasterLerpRate: 16
   rotationNormalLerpRate: 100
-  rotationFasterLerpRate: 200
-  positionThreshold: 0.5
+  rotationFasterLerpRate: 150
+  positionThreshold: 0.1
   positionCloseEnough: 0.2
   rotationThreshold: 0.3
   rotationCloseEnough: 0.4

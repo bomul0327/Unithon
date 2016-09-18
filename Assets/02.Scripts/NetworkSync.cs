@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.Networking;
 using System.Collections.Generic;
 
-[NetworkSettings (channel = 0, sendInterval = 0.1f)]
+[NetworkSettings (channel = 1, sendInterval = 0.033f)]
 public class NetworkSync : NetworkBehaviour {
     //이 스크립트에서는 서버에서 받아오는 값들을 보간해서 플레이어의 움직임, 회전을 부드럽게 만듭니다.
     //네트워크 게임에서 움직임을 부드럽게 하는 방법에는 여러가지가 있지만,
@@ -80,7 +80,7 @@ public class NetworkSync : NetworkBehaviour {
     void LerpPosition () {
         if (!isLocalPlayer) {
             if(syncPosList.Count > 0) {
-                transform.position = Vector3.Lerp(transform.position, syncPosList[0], lerpRate * Time.deltaTime);
+                transform.position = Vector3.Slerp(transform.position, syncPosList[0], lerpRate * Time.deltaTime);
 
                 if (Vector3.Distance(transform.position, syncPosList[0]) < positionCloseEnough) {
                     syncPosList.RemoveAt(0);
@@ -91,6 +91,7 @@ public class NetworkSync : NetworkBehaviour {
                 else {
                     lerpRate = normalLerpRate;
                 }
+                Debug.Log(lerpRate);
             }
         }
     }
@@ -122,7 +123,7 @@ public class NetworkSync : NetworkBehaviour {
         if (!isLocalPlayer) {
             if(syncRotList.Count > 0) {
                 Vector3 newRotation = new Vector3(0f, syncRotList[0], 0f);
-                transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(newRotation), rotationLerpRate * Time.deltaTime);
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(newRotation), rotationLerpRate * Time.deltaTime);
 
                 if(Mathf.Abs(transform.localEulerAngles.y - syncRotList[0]) < rotationCloseEnough) {
                     syncRotList.RemoveAt(0);

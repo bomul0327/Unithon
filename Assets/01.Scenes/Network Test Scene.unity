@@ -307,8 +307,8 @@ MonoBehaviour:
     m_ResendTimeout: 1200
     m_DisconnectTimeout: 2000
     m_ConnectTimeout: 2000
-    m_MinUpdateTimeout: 10
-    m_PingTimeout: 500
+    m_MinUpdateTimeout: 1
+    m_PingTimeout: 900
     m_ReducedPingTimeout: 100
     m_AllCostTimeout: 20
     m_NetworkDropThreshold: 5
