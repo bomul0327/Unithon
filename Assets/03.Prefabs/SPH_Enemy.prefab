@@ -664,7 +664,6 @@ GameObject:
   - 114: {fileID: 114000010767252266}
   - 114: {fileID: 114000013401096594}
   - 114: {fileID: 114000013963595744}
-  - 114: {fileID: 114000014271600950}
   m_Layer: 0
   m_Name: SPH_Enemy
   m_TagString: Untagged
@@ -5870,14 +5869,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011282506668}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0261ba11f41a8f4d9e114fb69b0575b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   normalLerpRate: 16
   fasterLerpRate: 27
-  rotationLerpRate: 20
+  rotationNormalLerpRate: 100
+  rotationFasterLerpRate: 200
   positionThreshold: 0.5
   positionCloseEnough: 0.2
   rotationThreshold: 0.3
@@ -5894,21 +5894,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020a0d52b4aa55c40a77c4a1d46088f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114000014271600950
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011282506668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e76cc8048e7b18d4e8195dc98c65249a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTransform: {fileID: 4000013653800440}
-  camTransform: {fileID: 4000012861105956, guid: 69d440154bc20444dac6b3a30fbf646f,
-    type: 2}
-  useHistoricalInterpolation: 1
 --- !u!137 &137000010562918286
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
