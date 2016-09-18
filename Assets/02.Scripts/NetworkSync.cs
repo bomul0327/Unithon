@@ -2,15 +2,15 @@
 using System.Collections;
 using UnityEngine.Networking;
 using System.Collections.Generic;
+
+[NetworkSettings (channel = 0, sendInterval = 0.1f)]
 public class NetworkSync : NetworkBehaviour {
     //이 스크립트에서는 서버에서 받아오는 값들을 보간해서 플레이어의 움직임, 회전을 부드럽게 만듭니다.
     //네트워크 게임에서 움직임을 부드럽게 하는 방법에는 여러가지가 있지만,
-    //우린 Linear Interpolation(Lerp in Unity)를 이용합니다.
+    //우린 Linear Interpolation(Lerp in Unity)를 이용합니다. 혹은 Slerp(Sphere Lerp)
     //Unity Network는 기본적으로 Server authorized 시스템입니다.
 
     //매 패킷마다 sync하는 variables
-    [Header("sync variables")]
-
     //SyncVarAttribute: 동기화하는 변수 선언 시에 사용.
     //server와 client끼리 직렬화하여 따로 패킷을 보낼 필요없이 변수만 갱신해주면 됨.
     [SyncVar(hook = "SyncPositionValues")]
@@ -19,7 +19,6 @@ public class NetworkSync : NetworkBehaviour {
     //rotation은 캐릭터의 y축 값만 보간해줍니다. 매 패킷마다 Quaternion을 보내지 않기 위해서
     [SyncVar(hook = "SyncRotationValues")]
     private float syncRot;
-    [Space(10)]
 
     //lerp(선형 보간) 하는 비율
     //Latency에 따라서 lerpRate가 변경 됩니다.
@@ -28,6 +27,13 @@ public class NetworkSync : NetworkBehaviour {
     private float normalLerpRate = 16;
     [SerializeField]
     private float fasterLerpRate = 27;
+
+    //Rotation LerpRate
+    private float rotationLerpRate;
+    [SerializeField]
+    private float rotationNormalLerpRate = 100f;
+    [SerializeField]
+    private float rotationFasterLerpRate = 200f;
 
     private Vector3 lastPos;
     private float lastRot;
@@ -42,32 +48,34 @@ public class NetworkSync : NetworkBehaviour {
     [SerializeField]
     private float rotationCloseEnough = 0.4f;
 
-    //syncPosList.Count에 따라서 lerpRate가 변경됨
+    //syncPosList.Count에 따라서 lerpRate가 변경됨.
+    //과거의 값들을 리스트로 저장한 후, 그 리스트를 따라서 움직이게 한다. (Historical Interpolation)
     private List<Vector3> syncPosList = new List<Vector3>();
     private List<float> syncRotList = new List<float>();
 
+    [SerializeField]
+    private PlayerMove playerMove;
+
 	void Start () {
         lerpRate = normalLerpRate;
+        rotationLerpRate = rotationNormalLerpRate;
+
+        //LocalPlayer가 아니면 PlayerMove를 활성화하지 않습니다.
+        if (!isLocalPlayer) {
+            playerMove.enabled = false;
+        }
 	}
 	
 	void Update () {
-        LerpValues();
+        LerpPosition();
+        LerpRotation();
 	}
 
     void FixedUpdate () {
-        TransmitValues();
-    }
-
-    void LerpValues () {
-        LerpPosition();
-        LerpRotation();
-    }
-
-    void TransmitValues () {
         TransmitPosition();
         TransmitRotation();
     }
-    
+
     //Position Lerping
     void LerpPosition () {
         if (!isLocalPlayer) {
@@ -110,16 +118,21 @@ public class NetworkSync : NetworkBehaviour {
 
 
     //Rotation Lerping
-    //Rotation Lerping은 Latency에 따라서 lerpRate가 바뀌지 않고, normalLerpRate로 고정해놨습니다.
-    //문제가 되면 그 때 고칩시다.
     void LerpRotation () {
         if (!isLocalPlayer) {
             if(syncRotList.Count > 0) {
-                Quaternion newRotation = Quaternion.Euler(0, syncRotList[0], 0);
-                transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, normalLerpRate * Time.deltaTime);
+                Vector3 newRotation = new Vector3(0f, syncRotList[0], 0f);
+                transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(newRotation), rotationLerpRate * Time.deltaTime);
 
                 if(Mathf.Abs(transform.localEulerAngles.y - syncRotList[0]) < rotationCloseEnough) {
                     syncRotList.RemoveAt(0);
+                }
+
+                if(syncRotList.Count > 100) {
+                    rotationLerpRate = rotationFasterLerpRate;
+                }
+                else {
+                    rotationLerpRate = rotationNormalLerpRate;
                 }
             }
         }
