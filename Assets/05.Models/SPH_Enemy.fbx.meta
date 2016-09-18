@@ -1,0 +1,1457 @@
+fileFormatVersion: 2
+guid: 51db3d60d4fcbfc4687ffcb9d5df4c07
+timeCreated: 1474166393
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Chest
+    100002: DebugSphere0
+    100004: DebugSphere1
+    100006: Direction
+    100008: Direction 1
+    100010: Direction 10
+    100012: Direction 11
+    100014: Direction 2
+    100016: Direction 3
+    100018: Direction 4
+    100020: Direction 5
+    100022: Direction 6
+    100024: Direction 7
+    100026: Direction 8
+    100028: Direction 9
+    100030: Do not touch
+    100032: ForeArmLParticles1
+    100034: ForeArmRParticles1
+    100036: Head
+    100038: Head_end
+    100040: HeadCutOffParticles1
+    100042: HeadCutOffParticles2
+    100044: HeadShatter
+    100046: Hips
+    100048: HipsCutOffParticles1
+    100050: HipsCutOffParticles2
+    100052: HipsShatter
+    100054: LeftArm
+    100056: LeftFoot
+    100058: LeftForeArm
+    100060: LeftForearmShatter
+    100062: LeftHand
+    100064: LeftHand_end
+    100066: LeftHandGrip
+    100068: LeftHandGripMachineGun
+    100070: LeftHandGripShotgun
+    100072: LeftLeg
+    100074: LeftShinShatter
+    100076: LeftShoulder
+    100078: LeftThighShatter
+    100080: LeftToe
+    100082: LeftToe_end
+    100084: LeftUpLeg
+    100086: LeftUpperArmShatter
+    100088: m.forearm.L
+    100090: m.forearm.L#0
+    100092: m.forearm.L#1
+    100094: m.forearm.L#2
+    100096: m.forearm.L#3
+    100098: m.forearm.L#4
+    100100: m.forearm.R
+    100102: m.forearm.R#0
+    100104: m.forearm.R#1
+    100106: m.forearm.R#2
+    100108: m.forearm.R#3
+    100110: m.forearm.R#4
+    100112: m.head
+    100114: m.head#0
+    100116: m.head#1
+    100118: m.head#2
+    100120: m.head#3
+    100122: m.head#4
+    100124: m.head#5
+    100126: m.head#6
+    100128: m.head#7
+    100130: m.head#8
+    100132: m.head#9
+    100134: m.hips
+    100136: m.hips#0
+    100138: m.hips#1
+    100140: m.hips#2
+    100142: m.shin.L
+    100144: m.shin.L#0
+    100146: m.shin.L#1
+    100148: m.shin.L#2
+    100150: m.shin.L#3
+    100152: m.shin.R
+    100154: m.shin.R#0
+    100156: m.shin.R#1
+    100158: m.shin.R#2
+    100160: m.shin.R#3
+    100162: m.shin.R#4
+    100164: m.shin.R#5
+    100166: m.thigh.L
+    100168: m.thigh.L#0
+    100170: m.thigh.L#1
+    100172: m.thigh.L#2
+    100174: m.thigh.L#3
+    100176: m.thigh.L#4
+    100178: m.thigh.L#5
+    100180: m.thigh.L#6
+    100182: m.thigh.R
+    100184: m.thigh.R#0
+    100186: m.thigh.R#1
+    100188: m.thigh.R#2
+    100190: m.thigh.R#3
+    100192: m.thigh.R#4
+    100194: m.thigh.R#5
+    100196: m.thigh.R#6
+    100198: m.thigh.R#7
+    100200: m.thigh.R#8
+    100202: m.torso
+    100204: m.torso#0
+    100206: m.torso#1
+    100208: m.torso#2
+    100210: m.torso#3
+    100212: m.torso#4
+    100214: m.torso#5
+    100216: m.torso#6
+    100218: m.torso#7
+    100220: m.torso#8
+    100222: m.torso#9
+    100224: m.upper_arm.L
+    100226: m.upper_arm.L#0
+    100228: m.upper_arm.L#1
+    100230: m.upper_arm.L#2
+    100232: m.upper_arm.R
+    100234: m.upper_arm.R#0
+    100236: m.upper_arm.R#1
+    100238: m.upper_arm.R#2
+    100240: MachinegunSocket
+    100242: MeleeWeaponSocket
+    100244: Neck
+    100246: ORG-foot.L Collider (Generated)
+    100248: ORG-foot.R Collider (Generated)
+    100250: PistolBone
+    100252: PistolBone_end
+    100254: PistolSocket
+    100256: rig
+    100258: RightArm
+    100260: RightFoot
+    100262: RightForeArm
+    100264: RightForearmShatter
+    100266: RightHand
+    100268: RightLeg
+    100270: RightShinShatter
+    100272: RightShoulder
+    100274: RightThighShatter
+    100276: RightToe
+    100278: RightToe_end
+    100280: RightUpLeg
+    100282: RightUpperArmShatter
+    100284: root
+    100286: Shatter
+    100288: ShinLParticles
+    100290: ShinRParticles1
+    100292: ShotgunSocket
+    100294: //RootNode
+    100296: Spine
+    100298: ThighLParticles
+    100300: ThighRParticles
+    100302: TorsoShatter
+    100304: UpperArmLParticles1
+    100306: UpperArmRParticles1
+    100308: VirtualEyes
+    400000: Chest
+    400002: DebugSphere0
+    400004: DebugSphere1
+    400006: Direction
+    400008: Direction 1
+    400010: Direction 10
+    400012: Direction 11
+    400014: Direction 2
+    400016: Direction 3
+    400018: Direction 4
+    400020: Direction 5
+    400022: Direction 6
+    400024: Direction 7
+    400026: Direction 8
+    400028: Direction 9
+    400030: Do not touch
+    400032: ForeArmLParticles1
+    400034: ForeArmRParticles1
+    400036: Head
+    400038: Head_end
+    400040: HeadCutOffParticles1
+    400042: HeadCutOffParticles2
+    400044: HeadShatter
+    400046: Hips
+    400048: HipsCutOffParticles1
+    400050: HipsCutOffParticles2
+    400052: HipsShatter
+    400054: LeftArm
+    400056: LeftFoot
+    400058: LeftForeArm
+    400060: LeftForearmShatter
+    400062: LeftHand
+    400064: LeftHand_end
+    400066: LeftHandGrip
+    400068: LeftHandGripMachineGun
+    400070: LeftHandGripShotgun
+    400072: LeftLeg
+    400074: LeftShinShatter
+    400076: LeftShoulder
+    400078: LeftThighShatter
+    400080: LeftToe
+    400082: LeftToe_end
+    400084: LeftUpLeg
+    400086: LeftUpperArmShatter
+    400088: m.forearm.L
+    400090: m.forearm.L#0
+    400092: m.forearm.L#1
+    400094: m.forearm.L#2
+    400096: m.forearm.L#3
+    400098: m.forearm.L#4
+    400100: m.forearm.R
+    400102: m.forearm.R#0
+    400104: m.forearm.R#1
+    400106: m.forearm.R#2
+    400108: m.forearm.R#3
+    400110: m.forearm.R#4
+    400112: m.head
+    400114: m.head#0
+    400116: m.head#1
+    400118: m.head#2
+    400120: m.head#3
+    400122: m.head#4
+    400124: m.head#5
+    400126: m.head#6
+    400128: m.head#7
+    400130: m.head#8
+    400132: m.head#9
+    400134: m.hips
+    400136: m.hips#0
+    400138: m.hips#1
+    400140: m.hips#2
+    400142: m.shin.L
+    400144: m.shin.L#0
+    400146: m.shin.L#1
+    400148: m.shin.L#2
+    400150: m.shin.L#3
+    400152: m.shin.R
+    400154: m.shin.R#0
+    400156: m.shin.R#1
+    400158: m.shin.R#2
+    400160: m.shin.R#3
+    400162: m.shin.R#4
+    400164: m.shin.R#5
+    400166: m.thigh.L
+    400168: m.thigh.L#0
+    400170: m.thigh.L#1
+    400172: m.thigh.L#2
+    400174: m.thigh.L#3
+    400176: m.thigh.L#4
+    400178: m.thigh.L#5
+    400180: m.thigh.L#6
+    400182: m.thigh.R
+    400184: m.thigh.R#0
+    400186: m.thigh.R#1
+    400188: m.thigh.R#2
+    400190: m.thigh.R#3
+    400192: m.thigh.R#4
+    400194: m.thigh.R#5
+    400196: m.thigh.R#6
+    400198: m.thigh.R#7
+    400200: m.thigh.R#8
+    400202: m.torso
+    400204: m.torso#0
+    400206: m.torso#1
+    400208: m.torso#2
+    400210: m.torso#3
+    400212: m.torso#4
+    400214: m.torso#5
+    400216: m.torso#6
+    400218: m.torso#7
+    400220: m.torso#8
+    400222: m.torso#9
+    400224: m.upper_arm.L
+    400226: m.upper_arm.L#0
+    400228: m.upper_arm.L#1
+    400230: m.upper_arm.L#2
+    400232: m.upper_arm.R
+    400234: m.upper_arm.R#0
+    400236: m.upper_arm.R#1
+    400238: m.upper_arm.R#2
+    400240: MachinegunSocket
+    400242: MeleeWeaponSocket
+    400244: Neck
+    400246: ORG-foot.L Collider (Generated)
+    400248: ORG-foot.R Collider (Generated)
+    400250: PistolBone
+    400252: PistolBone_end
+    400254: PistolSocket
+    400256: rig
+    400258: RightArm
+    400260: RightFoot
+    400262: RightForeArm
+    400264: RightForearmShatter
+    400266: RightHand
+    400268: RightLeg
+    400270: RightShinShatter
+    400272: RightShoulder
+    400274: RightThighShatter
+    400276: RightToe
+    400278: RightToe_end
+    400280: RightUpLeg
+    400282: RightUpperArmShatter
+    400284: root
+    400286: Shatter
+    400288: ShinLParticles
+    400290: ShinRParticles1
+    400292: ShotgunSocket
+    400294: //RootNode
+    400296: Spine
+    400298: ThighLParticles
+    400300: ThighRParticles
+    400302: TorsoShatter
+    400304: UpperArmLParticles1
+    400306: UpperArmRParticles1
+    400308: VirtualEyes
+    2300000: DebugSphere0
+    2300002: DebugSphere1
+    2300004: m.head#0
+    2300006: m.head#1
+    2300008: m.head#2
+    2300010: m.head#3
+    2300012: m.head#4
+    2300014: m.head#5
+    2300016: m.head#6
+    2300018: m.head#7
+    2300020: m.head#8
+    2300022: m.head#9
+    2300024: m.hips#0
+    2300026: m.hips#1
+    2300028: m.hips#2
+    2300030: m.thigh.L#0
+    2300032: m.thigh.L#1
+    2300034: m.thigh.L#2
+    2300036: m.thigh.L#3
+    2300038: m.thigh.L#4
+    2300040: m.thigh.L#5
+    2300042: m.thigh.L#6
+    2300044: m.thigh.R#0
+    2300046: m.thigh.R#1
+    2300048: m.thigh.R#2
+    2300050: m.thigh.R#3
+    2300052: m.thigh.R#4
+    2300054: m.thigh.R#5
+    2300056: m.thigh.R#6
+    2300058: m.thigh.R#7
+    2300060: m.thigh.R#8
+    2300062: m.upper_arm.L#0
+    2300064: m.upper_arm.L#1
+    2300066: m.upper_arm.L#2
+    2300068: m.upper_arm.R#0
+    2300070: m.upper_arm.R#1
+    2300072: m.upper_arm.R#2
+    3300000: DebugSphere0
+    3300002: DebugSphere1
+    3300004: m.head#0
+    3300006: m.head#1
+    3300008: m.head#2
+    3300010: m.head#3
+    3300012: m.head#4
+    3300014: m.head#5
+    3300016: m.head#6
+    3300018: m.head#7
+    3300020: m.head#8
+    3300022: m.head#9
+    3300024: m.hips#0
+    3300026: m.hips#1
+    3300028: m.hips#2
+    3300030: m.thigh.L#0
+    3300032: m.thigh.L#1
+    3300034: m.thigh.L#2
+    3300036: m.thigh.L#3
+    3300038: m.thigh.L#4
+    3300040: m.thigh.L#5
+    3300042: m.thigh.L#6
+    3300044: m.thigh.R#0
+    3300046: m.thigh.R#1
+    3300048: m.thigh.R#2
+    3300050: m.thigh.R#3
+    3300052: m.thigh.R#4
+    3300054: m.thigh.R#5
+    3300056: m.thigh.R#6
+    3300058: m.thigh.R#7
+    3300060: m.thigh.R#8
+    3300062: m.upper_arm.L#0
+    3300064: m.upper_arm.L#1
+    3300066: m.upper_arm.L#2
+    3300068: m.upper_arm.R#0
+    3300070: m.upper_arm.R#1
+    3300072: m.upper_arm.R#2
+    4300000: DebugSphere1
+    4300002: m.upper_arm.R
+    4300004: m.upper_arm.L
+    4300006: m.torso
+    4300008: m.thigh.R
+    4300010: m.thigh.L
+    4300012: m.shin.R
+    4300014: m.shin.L
+    4300016: m.hips
+    4300018: m.head
+    4300020: m.forearm.R
+    4300022: m.forearm.L
+    4300024: m.upper_arm.R#2
+    4300026: m.upper_arm.R#0
+    4300028: m.upper_arm.R#1
+    4300030: m.thigh.L#4
+    4300032: m.thigh.L#3
+    4300034: m.thigh.L#5
+    4300036: m.thigh.L#2
+    4300038: m.thigh.L#0
+    4300040: m.thigh.L#6
+    4300042: m.thigh.L#1
+    4300044: m.thigh.R#1
+    4300046: m.thigh.R#4
+    4300048: m.thigh.R#0
+    4300050: m.thigh.R#6
+    4300052: m.thigh.R#2
+    4300054: m.thigh.R#5
+    4300056: m.thigh.R#3
+    4300058: m.thigh.R#7
+    4300060: m.thigh.R#8
+    4300062: m.hips#2
+    4300064: m.hips#0
+    4300066: m.hips#1
+    4300068: m.upper_arm.L#1
+    4300070: m.upper_arm.L#0
+    4300072: m.upper_arm.L#2
+    4300074: m.head#4
+    4300076: m.head#6
+    4300078: m.head#0
+    4300080: m.head#8
+    4300082: m.head#1
+    4300084: m.head#7
+    4300086: m.head#9
+    4300088: m.head#3
+    4300090: m.head#2
+    4300092: m.head#5
+    9500000: //RootNode
+    13700000: m.forearm.L
+    13700002: m.forearm.R
+    13700004: m.head
+    13700006: m.hips
+    13700008: m.shin.L
+    13700010: m.shin.R
+    13700012: m.thigh.L
+    13700014: m.thigh.R
+    13700016: m.torso
+    13700018: m.upper_arm.L
+    13700020: m.upper_arm.R
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftToe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightToe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: SPH_Enemy(Clone)
+      position: {x: 0.003892899, y: 0, z: 0.01551056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Do not touch
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.forearm.L
+      position: {x: -63.30229, y: 156.2627, z: -4.965091}
+      rotation: {x: -0.6720577, y: 0.21986012, z: -0.2198601, w: 0.6720577}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.forearm.R
+      position: {x: 61.37448, y: 157.6965, z: -4.5372}
+      rotation: {x: -0.6759654, y: -0.20753506, z: 0.20753506, w: 0.6759654}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.head
+      position: {x: -0.05925442, y: 182.0011, z: 1.685067}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.hips
+      position: {x: -0.2643794, y: 108.3791, z: 1.320952}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.shin.L
+      position: {x: -9.87172, y: 27.99934, z: 1.845829}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.shin.R
+      position: {x: 9.742168, y: 25.65094, z: 1.838149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.L
+      position: {x: -8.494617, y: 81.73691, z: 4.148787}
+      rotation: {x: -0.7077236, y: 0, z: -0, w: 0.7064894}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.R
+      position: {x: 8.97421, y: 80.45725, z: 3.967622}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.torso
+      position: {x: -0.4287207, y: 144.6459, z: -1.556828}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.upper_arm.L
+      position: {x: -27.91223, y: 156.299, z: -6.537241}
+      rotation: {x: -0.69060516, y: 0.15187041, z: -0.15187038, w: 0.69060504}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.upper_arm.R
+      position: {x: 29.04355, y: 157.2169, z: -5.724056}
+      rotation: {x: -0.6858425, y: -0.17210473, z: 0.17210472, w: 0.6858425}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hips
+      position: {x: -0, y: -0.01523757, z: 1.006229}
+      rotation: {x: 0.70604545, y: -0.16777995, z: -0.17976138, w: 0.66410506}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: HipsCutOffParticles1
+      position: {x: -0.008, y: 0.227, z: -0.004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction
+      position: {x: -0, y: 0.139, z: -0.03}
+      rotation: {x: 0.000000029802317, y: -4.656612e-10, z: -0.0000000037252892, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ThighLParticles
+      position: {x: -0.054, y: -0.003, z: 0.067}
+      rotation: {x: 0.1238104, y: 0.016040701, z: 0.22838439, w: 0.96553314}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction 1
+      position: {x: -0.039, y: -0.069, z: 0.014}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ThighRParticles
+      position: {x: 0.093, y: -0.01, z: -0.038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction 2
+      position: {x: -0, y: -0.0812, z: 0.0112}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightUpLeg
+      position: {x: 0.0709639, y: 0.06412259, z: -0.07447162}
+      rotation: {x: 0.9669992, y: 0.017914815, z: -0.24525025, w: 0.06666373}
+      scale: {x: 1.000004, y: 1, z: 1.000013}
+      transformModified: 1
+    - name: ShinRParticles1
+      position: {x: -0.0044, y: 0.5175, z: -0.0089}
+      rotation: {x: 0.9893778, y: 0.000000003725308, z: -0.000000093481525, w: -0.14536732}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction 4
+      position: {x: -0, y: -0.0812, z: -0.0101}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightLeg
+      position: {x: -0.00000003352761, y: 0.5363695, z: 0.00000007078052}
+      rotation: {x: 0.08754112, y: -0.00000002579964, z: 0.000000005748006, w: 0.9961609}
+      scale: {x: 1, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: RightFoot
+      position: {x: -0.000000007501248, y: 0.4542147, z: -0.000000003650939}
+      rotation: {x: -0.52736366, y: 2.3173156e-10, z: -1.437954e-10, w: 0.84963965}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-foot.R Collider (Generated)
+      position: {x: -0, y: 0.0972, z: -0.0288}
+      rotation: {x: -0.27464992, y: 4.8157886e-17, z: 4.334924e-17, w: 0.96154433}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightToe
+      position: {x: 1.904527e-11, y: 0.1292455, z: 0.000000007941878}
+      rotation: {x: 0.000000020813461, y: 0.9612487, z: -0.27568266, w: 0.000000072572256}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightToe_end
+      position: {x: -0, y: 0.06720001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftUpLeg
+      position: {x: -0.101334, y: 0.06376188, z: 0.01895891}
+      rotation: {x: 0.9669992, y: 0.017913548, z: -0.24525008, w: 0.0666642}
+      scale: {x: 1.000004, y: 1, z: 1.000013}
+      transformModified: 1
+    - name: ShinLParticles
+      position: {x: 0.0037, y: 0.5175, z: -0.0089}
+      rotation: {x: 0.9893778, y: 0.000000003725305, z: -0.00000009394715, w: -0.14536732}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction 3
+      position: {x: -0, y: -0.0812, z: -0.0101}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftLeg
+      position: {x: 0.00000004284084, y: 0.5363697, z: 0.00000005215406}
+      rotation: {x: 0.0875413, y: -0.000000048856243, z: -0.000000009546058, w: 0.9961609}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: LeftFoot
+      position: {x: 7.657198e-11, y: 0.4542148, z: -0.000000001244643}
+      rotation: {x: -0.52736366, y: -3.503399e-10, z: 2.1763114e-10, w: 0.84963965}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ORG-foot.L Collider (Generated)
+      position: {x: -0, y: 0.0989, z: -0.0298}
+      rotation: {x: -0.2766322, y: 4.831706e-17, z: 4.3492498e-17, w: 0.9609759}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftToe
+      position: {x: -0.00000001492986, y: 0.1292455, z: 0.000000001938474}
+      rotation: {x: -0.000000020813461, y: 0.9612487, z: -0.27568266, w: -0.000000072572256}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftToe_end
+      position: {x: -0, y: 0.06720001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine
+      position: {x: 0.0000000433065, y: 0.1786532, z: 0.00000008847564}
+      rotation: {x: -0.085323006, y: 0.24579662, z: 0.023236899, w: 0.9652793}
+      scale: {x: 1, y: 0.9999996, z: 1}
+      transformModified: 1
+    - name: HipsCutOffParticles2
+      position: {x: -0.0159, y: -0.0189, z: 0.0466}
+      rotation: {x: 0.0546678, y: 0.000000029802317, z: -0.0000000074505784, w: 0.9985046}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction 5
+      position: {x: -0, y: -0.0667, z: 0.0146}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest
+      position: {x: 6.189493e-12, y: 0.23144, z: -0.00000001710857}
+      rotation: {x: -0.052703153, y: -0.0017492077, z: -0.00080362824, w: 0.9986084}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck
+      position: {x: -3.552714e-15, y: 0.2198536, z: 0.000000009313224}
+      rotation: {x: 0.06768596, y: 5.4630844e-10, z: -0.000000016100529, w: 0.9977067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HeadCutOffParticles1
+      position: {x: 0.009, y: 0.132, z: 0.0056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction 7
+      position: {x: -0, y: 0.067, z: -0.002}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head
+      position: {x: -4.440892e-16, y: 0.1556266, z: -1.824929e-15}
+      rotation: {x: 0.07692634, y: 6.8028516e-10, z: -0.000000018288178, w: 0.9970368}
+      scale: {x: 1, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: Head_end
+      position: {x: 0.000000009786978, y: 0.1485181, z: 0.0000001564622}
+      rotation: {x: 0.0000000037252892, y: 2.9601522e-28, z: -1.8189891e-12, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: HeadCutOffParticles2
+      position: {x: -0.017, y: -0.067, z: 0.013}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction 10
+      position: {x: -0, y: -0.078, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: VirtualEyes
+      position: {x: -0, y: 0.0604, z: 0.1069}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DebugSphere0
+      position: {x: 0.042, y: 0.003, z: 0.001}
+      rotation: {x: -0.08743593, y: -0.0000004095871, z: -0.00000016757647, w: 0.99617016}
+      scale: {x: 0.05, y: 0.075, z: 0.05}
+      transformModified: 1
+    - name: DebugSphere1
+      position: {x: -0.029, y: 0.001, z: 0.013}
+      rotation: {x: -0.08743593, y: -0.0000004095871, z: -0.00000016757647, w: 0.99617016}
+      scale: {x: 0.05, y: 0.075, z: 0.05}
+      transformModified: 1
+    - name: LeftShoulder
+      position: {x: -0.02955838, y: 0.1868948, z: 0.04365902}
+      rotation: {x: -0.58250415, y: 0.36809298, z: 0.46775544, w: 0.5535352}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UpperArmLParticles1
+      position: {x: -0.0208, y: 0.2283, z: 0.0179}
+      rotation: {x: 0.69497573, y: -0.397266, z: -0.29771176, w: 0.5201502}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction 6
+      position: {x: -0.0828, y: 0.0138, z: -0.0176}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftArm
+      position: {x: -0.0000002831221, y: 0.1861113, z: -0.000001452863}
+      rotation: {x: 0.13487168, y: -0.7273732, z: 0.0150778415, w: 0.672689}
+      scale: {x: 0.9999995, y: 0.9999999, z: 1.000001}
+      transformModified: 1
+    - name: ForeArmLParticles1
+      position: {x: 0.003, y: 0.266, z: 0.009}
+      rotation: {x: -0.12774383, y: 0.030654382, z: 0.85974324, w: -0.4935417}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction 9
+      position: {x: -0.074, y: -0.044, z: 0.013}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftForeArm
+      position: {x: -0.000000949949, y: 0.2273105, z: 0.0000001727603}
+      rotation: {x: 0.07580774, y: 0.06923367, z: 0.0072068213, w: 0.9946899}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: LeftHand
+      position: {x: -0.0000004759058, y: 0.2644095, z: 0}
+      rotation: {x: 0.0031834056, y: -0.7191273, z: 0.04913738, w: 0.6931316}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHand_end
+      position: {x: 0.0000004321337, y: 0.0894039, z: 0.000001926819}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandGrip
+      position: {x: -0, y: 0.0883, z: 0.033}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandGripMachineGun
+      position: {x: -0, y: 0.134, z: 0.019}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandGripShotgun
+      position: {x: -0, y: 0.103, z: 0.019}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightShoulder
+      position: {x: 0.02954866, y: 0.1868948, z: 0.04365901}
+      rotation: {x: -0.58243656, y: -0.36815494, z: -0.46773937, w: 0.55357885}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: UpperArmRParticles1
+      position: {x: 0.036, y: 0.222, z: 0.025}
+      rotation: {x: 0.69497573, y: 0.39726597, z: 0.2977119, w: 0.52015007}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction 8
+      position: {x: 0.0674, y: 0.005, z: -0.0173}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightArm
+      position: {x: 0.00000001490116, y: 0.1707803, z: -0.0000003254972}
+      rotation: {x: 0.18047829, y: 0.7234003, z: -0.016722592, w: 0.6662133}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ForeArmRParticles1
+      position: {x: 0.003, y: 0.264, z: 0.019}
+      rotation: {x: 0.77416915, y: -0.5007179, z: -0.20178299, w: -0.33049574}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Direction 11
+      position: {x: -0.058, y: -0.035, z: 0.061}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightForeArm
+      position: {x: 0.0000002346933, y: 0.2304541, z: 0.00000005261973}
+      rotation: {x: 0.041765872, y: -0.07561232, z: -0.041874003, w: 0.99538183}
+      scale: {x: 0.9999998, y: 1, z: 0.9999997}
+      transformModified: 1
+    - name: RightHand
+      position: {x: 0.00000002654269, y: 0.2564627, z: 0}
+      rotation: {x: 0.0042827865, y: 0.72036976, z: -0.023701433, w: 0.693172}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999998}
+      transformModified: 1
+    - name: MachinegunSocket
+      position: {x: -0.02997923, y: 0.1129999, z: 0.0369854}
+      rotation: {x: -0.43168846, y: 0.47308502, z: 0.6033922, w: 0.47513527}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MeleeWeaponSocket
+      position: {x: -0.005, y: 0.095, z: 0.071}
+      rotation: {x: -0.13463767, y: -0.6856922, z: -0.082678996, w: 0.7105372}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PistolBone
+      position: {x: -0.07777283, y: 0.09645395, z: 0.03195115}
+      rotation: {x: -0.009580879, y: 0.9475705, z: -0.025490778, w: -0.31838453}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PistolBone_end
+      position: {x: -0, y: 0.138004, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PistolSocket
+      position: {x: 0.0038, y: 0.094, z: 0.0383}
+      rotation: {x: -0.70708734, y: -0.005261439, z: -0.005261495, w: 0.7070871}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ShotgunSocket
+      position: {x: -0.02483786, y: 0.1743839, z: 0.03940609}
+      rotation: {x: -0.46898657, y: 0.5072012, z: 0.39648426, w: 0.60464764}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Shatter
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HeadShatter
+      position: {x: 0.00003192807, y: 1.784016, z: -0.06183146}
+      rotation: {x: 0.034308277, y: -0.00086301536, z: 0.00013012807, w: 0.9994109}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: m.head#0
+      position: {x: 0.02145347, y: -0.03607788, z: 0.05912178}
+      rotation: {x: -0.7309499, y: 0.00070224685, z: 0.00051823247, w: 0.6824306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.head#1
+      position: {x: -0.02448144, y: -0.04874396, z: 0.02958732}
+      rotation: {x: -0.7309499, y: 0.00070224685, z: 0.00051823247, w: 0.6824306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.head#2
+      position: {x: -0.04848005, y: -0.02163233, z: 0.05924514}
+      rotation: {x: -0.7309499, y: 0.00070224685, z: 0.00051823247, w: 0.6824306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.head#3
+      position: {x: 0.01859625, y: 0.05263597, z: 0.004435167}
+      rotation: {x: -0.7309499, y: 0.00070224685, z: 0.00051823247, w: 0.6824306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.head#4
+      position: {x: 0.01682489, y: -0.02397643, z: -0.01315936}
+      rotation: {x: -0.7309499, y: 0.00070224685, z: 0.00051823247, w: 0.6824306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.head#5
+      position: {x: -0.02931711, y: 0.09521221, z: 0.08878293}
+      rotation: {x: -0.7309499, y: 0.00070224685, z: 0.00051823247, w: 0.6824306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.head#6
+      position: {x: -0.05635702, y: 0.0873881, z: 0.06988975}
+      rotation: {x: -0.7309499, y: 0.00070224685, z: 0.00051823247, w: 0.6824306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.head#7
+      position: {x: -0.05319564, y: 0.08359665, z: 0.008511003}
+      rotation: {x: -0.7309499, y: 0.00070224685, z: 0.00051823247, w: 0.6824306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.head#8
+      position: {x: -0.00619503, y: 0.1094261, z: 0.01527397}
+      rotation: {x: -0.7309499, y: 0.00070224685, z: 0.00051823247, w: 0.6824306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.head#9
+      position: {x: 0.01059838, y: 0.02920373, z: 0.09985884}
+      rotation: {x: -0.7309499, y: 0.00070224685, z: 0.00051823247, w: 0.6824306}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HipsShatter
+      position: {x: 0.0000008959323, y: 1.006229, z: 0.01523748}
+      rotation: {x: 0.02965623, y: -0.24574885, z: -0.008472144, w: 0.96884274}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: m.hips#0
+      position: {x: 0.01008629, y: -0.005466194, z: 0.002483071}
+      rotation: {x: -0.7060455, y: 0.16777994, z: 0.1797614, w: 0.66410506}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.hips#1
+      position: {x: 0.04100702, y: 0.1454651, z: -0.03092238}
+      rotation: {x: -0.7060455, y: 0.16777994, z: 0.1797614, w: 0.66410506}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.hips#2
+      position: {x: -0.06699303, y: 0.08872967, z: 0.005354933}
+      rotation: {x: -0.7060455, y: 0.16777994, z: 0.1797614, w: 0.66410506}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftForearmShatter
+      position: {x: 18.48396, y: -0.0000001192093, z: 8.158621}
+      rotation: {x: 9.347317e-19, y: -0.71469826, z: -9.347317e-19, w: 0.6994329}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: m.forearm.L#0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.forearm.L#1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.forearm.L#2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.forearm.L#3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.forearm.L#4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftShinShatter
+      position: {x: 18.48396, y: -0.0000001192093, z: 8.158621}
+      rotation: {x: 9.347317e-19, y: -0.71469826, z: -9.347317e-19, w: 0.6994329}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: m.shin.L#0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.shin.L#1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.shin.L#2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.shin.L#3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftThighShatter
+      position: {x: -0.09799901, y: 1.071999, z: -0.01240008}
+      rotation: {x: 0.99926883, y: 0.000053390853, z: -0.0000034272825, w: 0.038233463}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: m.thigh.L#0
+      position: {x: 0.0371324, y: 0.4189236, z: -0.00998427}
+      rotation: {x: 0.7330318, y: 0.000040143725, z: 0.000035378143, w: 0.6801944}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.L#1
+      position: {x: 0.008589326, y: 0.4516639, z: -0.05323544}
+      rotation: {x: 0.7330318, y: 0.000040143725, z: 0.000035378143, w: 0.6801944}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.L#2
+      position: {x: -0.002019637, y: 0.4200275, z: 0.01100236}
+      rotation: {x: 0.7330318, y: 0.000040143725, z: 0.000035378143, w: 0.6801944}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.L#3
+      position: {x: -0.02570122, y: 0.3709483, z: -0.05511907}
+      rotation: {x: 0.7330318, y: 0.000040143725, z: 0.000035378143, w: 0.6801944}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.L#4
+      position: {x: 0.01045913, y: 0.1790613, z: -0.005296884}
+      rotation: {x: 0.7330318, y: 0.000040143725, z: 0.000035378143, w: 0.6801944}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.L#5
+      position: {x: -0.0378234, y: 0.2235087, z: -0.04438088}
+      rotation: {x: 0.7330318, y: 0.000040143725, z: 0.000035378143, w: 0.6801944}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.L#6
+      position: {x: 0.03091576, y: 0.1395962, z: -0.0703033}
+      rotation: {x: 0.7330318, y: 0.000040143725, z: 0.000035378143, w: 0.6801944}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftUpperArmShatter
+      position: {x: -0.2003138, y: 1.565251, z: -0.06047313}
+      rotation: {x: -0.09092275, y: -0.04933428, z: 0.71141773, w: 0.6951144}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: m.upper_arm.L#0
+      position: {x: -0.009901693, y: 0.02448961, z: -0.01533818}
+      rotation: {x: -0.31670713, y: 0.64475495, z: -0.5489969, w: 0.42730564}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.upper_arm.L#1
+      position: {x: -0.01371074, y: 0.1515886, z: -0.003196798}
+      rotation: {x: -0.31670713, y: 0.64475495, z: -0.5489969, w: 0.42730564}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.upper_arm.L#2
+      position: {x: -0.006216313, y: 0.2186771, z: 0.006384395}
+      rotation: {x: -0.31670713, y: 0.64475495, z: -0.5489969, w: 0.42730564}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightForearmShatter
+      position: {x: 18.48396, y: -0.0000001192093, z: 8.158621}
+      rotation: {x: 9.347317e-19, y: -0.71469826, z: -9.347317e-19, w: 0.6994329}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: m.forearm.R#0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.forearm.R#1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.forearm.R#2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.forearm.R#3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.forearm.R#4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightShinShatter
+      position: {x: 18.48396, y: -0.0000001192093, z: 8.158621}
+      rotation: {x: 9.347317e-19, y: -0.71469826, z: -9.347317e-19, w: 0.6994329}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: m.shin.R#0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.shin.R#1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.shin.R#2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.shin.R#3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.shin.R#4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.shin.R#5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightThighShatter
+      position: {x: 0.09800005, y: 1.071999, z: -0.01239995}
+      rotation: {x: 0.99926883, y: 0.00005474873, z: -0.0000035464782, w: 0.038233463}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: m.thigh.R#0
+      position: {x: -0.02235414, y: 0.3617759, z: -0.04196192}
+      rotation: {x: 0.733625, y: 0.00004124641, z: 0.000036166042, w: 0.6795546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.R#1
+      position: {x: 0.01237998, y: 0.4420755, z: -0.01028723}
+      rotation: {x: 0.733625, y: 0.00004124641, z: 0.000036166042, w: 0.6795546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.R#2
+      position: {x: -0.01399187, y: 0.4780266, z: -0.01995031}
+      rotation: {x: 0.733625, y: 0.00004124641, z: 0.000036166042, w: 0.6795546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.R#3
+      position: {x: -0.004913675, y: 0.4055246, z: 0.01253219}
+      rotation: {x: 0.733625, y: 0.00004124641, z: 0.000036166042, w: 0.6795546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.R#4
+      position: {x: 0.02407206, y: 0.2635663, z: -0.01215248}
+      rotation: {x: 0.733625, y: 0.00004124641, z: 0.000036166042, w: 0.6795546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.R#5
+      position: {x: -0.007642749, y: 0.2617739, z: -0.07058284}
+      rotation: {x: 0.733625, y: 0.00004124641, z: 0.000036166042, w: 0.6795546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.R#6
+      position: {x: -0.04718664, y: 0.1919668, z: -0.04018636}
+      rotation: {x: 0.733625, y: 0.00004124641, z: 0.000036166042, w: 0.6795546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.R#7
+      position: {x: 0.01425917, y: 0.1042519, z: -0.02788111}
+      rotation: {x: 0.733625, y: 0.00004124641, z: 0.000036166042, w: 0.6795546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.thigh.R#8
+      position: {x: 0.03443975, y: 0.1424298, z: 0.015638}
+      rotation: {x: 0.733625, y: 0.00004124641, z: 0.000036166042, w: 0.6795546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightUpperArmShatter
+      position: {x: 0.1836057, y: 1.565329, z: -0.05980836}
+      rotation: {x: -0.06049053, y: 0.027396314, z: -0.6800724, w: 0.7301314}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: m.upper_arm.R#0
+      position: {x: 0.009552544, y: 0.02750353, z: -0.002581683}
+      rotation: {x: 0.34693962, y: 0.6212819, z: -0.5628813, w: -0.4204835}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.upper_arm.R#1
+      position: {x: 0.009267071, y: 0.2438172, z: -0.003825458}
+      rotation: {x: 0.34693962, y: 0.6212819, z: -0.5628813, w: -0.4204835}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.upper_arm.R#2
+      position: {x: 0.01308838, y: 0.1686442, z: -0.004129285}
+      rotation: {x: 0.34693962, y: 0.6212819, z: -0.5628813, w: -0.4204835}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: TorsoShatter
+      position: {x: 18.48396, y: -0.0000001192093, z: 8.158621}
+      rotation: {x: 9.347317e-19, y: -0.71469826, z: -9.347317e-19, w: 0.6994329}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: m.torso#0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.torso#1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.torso#2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.torso#3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.torso#4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.torso#5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.torso#6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.torso#7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.torso#8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: m.torso#9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

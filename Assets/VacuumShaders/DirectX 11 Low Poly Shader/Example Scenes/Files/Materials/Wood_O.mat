@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Wood_O
+  m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _DisplaceTex_1
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DisplaceTex_2
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: ce1c149e8af914c34a6377b3352a0da5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _PixelTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SecondTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BUMP_LABEL
+      second: 0
+    - first:
+        name: _DisplaceAmplitude
+      second: 0.5
+    - first:
+        name: _DisplaceBlendType
+      second: 1
+    - first:
+        name: _DisplaceDirection
+      second: 45
+    - first:
+        name: _DisplaceFrequency
+      second: 0.2
+    - first:
+        name: _DisplaceNoiseCoef
+      second: -0.5
+    - first:
+        name: _DisplaceScriptSynchronize
+      second: 0
+    - first:
+        name: _DisplaceSpeed
+      second: 1
+    - first:
+        name: _DisplaceStrength
+      second: 1
+    - first:
+        name: _DisplaceType
+      second: 0
+    - first:
+        name: _Dsiplace_LABEL
+      second: 0
+    - first:
+        name: _FORWARD_RENDERING_LABEL
+      second: 0
+    - first:
+        name: _LowPolyLightID
+      second: 0
+    - first:
+        name: _PIXEL_LABEL
+      second: 0
+    - first:
+        name: _PixelTex_AlphaOffset
+      second: 0
+    - first:
+        name: _PixelTex_BlendType
+      second: 0
+    - first:
+        name: _PixelTextureID
+      second: 0
+    - first:
+        name: _REFLECTION_LABEL
+      second: 0
+    - first:
+        name: _RENDERING_MODE_LABEL
+      second: 0
+    - first:
+        name: _SHADER_TYPE_LABEL
+      second: 0
+    - first:
+        name: _SPECULAR_LABEL
+      second: 0
+    - first:
+        name: _SamplingType
+      second: 0
+    - first:
+        name: _SecondTex_AlphaOffset
+      second: 0
+    - first:
+        name: _SecondTex_BlendType
+      second: 0
+    - first:
+        name: _SecondTextureID
+      second: 0
+    - first:
+        name: _VERTEX_LABEL
+      second: 0
+    - first:
+        name: _VertexColor
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DisplaceTex_1_Scroll
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _DisplaceTex_2_Scroll
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _MainTex_Scroll
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _PixelTex_Scroll
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _SecondTex_Scroll
+      second: {r: 0, g: 0, b: 0, a: 0}
