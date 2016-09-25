@@ -32,10 +32,6 @@ public class LobbySetting : Photon.PunBehaviour {
         GUILayout.Label(PhotonNetwork.connectionStateDetailed.ToString());
     }
 
-    void SpawnPlayer () {
-        PhotonNetwork.Instantiate("SPH_Enemy", Vector3.zero, Quaternion.identity, 0);
-    }
-
     public override void OnConnectedToMaster () {
         Debug.Log("Region:" + PhotonNetwork.networkingPeer.CloudRegion);
         PhotonNetwork.JoinRandomRoom();

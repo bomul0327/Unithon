@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : Photon.PunBehaviour {
     /// <summary>
     /// 캐릭터 움직임 & 애니메이션 처리하는 스크립트
     /// </summary> 
@@ -19,17 +19,10 @@ public class PlayerController : MonoBehaviour {
         anim = GetComponent<Animator>();
         photonView = GetComponent<PhotonView>();
         cameraCtrl = Camera.main.GetComponent<CameraCtrl>();
-        if (photonView.isMine) {
-            PlayerController.LocalPlayerInstance = this.gameObject;
-        }
-        DontDestroyOnLoad(this.gameObject);
 	}
 
     void Start () {
-        if (!photonView.isMine) {
-            cameraCtrl.enabled = false;
-        }
-        else {
+        if(photonView.isMine) {
             cameraCtrl.enabled = true;
             cameraCtrl.Target = transform;
         }
@@ -37,6 +30,7 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (!photonView.isMine) return;
         MoveCharacter();
 	}
 
